@@ -228,7 +228,7 @@ function App() {
         <div className="flex flex-col md:flex-row gap-12 items-center">
           <motion.img
             whileHover={{ scale: 1.05 }}
-            src="src/img/IMG_2404.png"
+            src="/img/IMG_2404.png"
             alt="Sai Profile"
             className="w-64 h-64 rounded-full object-cover shadow-lg ring-4 ring-white"
           />
@@ -403,14 +403,14 @@ function App() {
     description: "Designed an AI-driven interview preparation platform that tailors questions and study materials based on the selected job role and experience level.",
     technologies: ["React", "Node.js", "MongoDB", "OpenAI API"],
     link: "https://github.com/sai4464/prepnest",
-    image: "src/img/newimage1.png"
+    image: "/img/newimage1.png"
   },
   {
     title: "Stock Manager for Small Restaurants",
     description: "Developed an intuitive stock management system tailored for small restaurants, enabling real-time inventory tracking, automated restocking alerts, and cost analysis for efficient supply chain management.",
     technologies: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"],
     link: "https://github.com/sai4464/restaurant-stock-manager",
-    image: "src/img/stockmanager.jpg"
+    image: "/img/stockmanager.jpg"
   },
   {
     title: "AI-Based Bug Triage System",
@@ -422,26 +422,26 @@ function App() {
     title: "Real-Time Whiteboard Collaboration",
     description: "Developed a real-time, multi-user whiteboard app supporting drawing, chat, undo/redo, and snapshots. Used WebSockets for real-time sync and fault-tolerant reconnect logic. UI was modularized for better performance and debugging.",
     technologies: ["Node.js", "WebSockets", "Express", "Canvas API", "JavaScript"],
-    image: "src/img/newimage3.png"
+    image: "/img/newimage3.png"
 
   },
   {
     title: "Mobile Wellness App",
     description: "Built a cross-platform Flutter app to track health metrics and sync with BLE devices. Included real-time syncing, local storage, and alerts for abnormal readings. Unit and widget tests were implemented for robustness.",
     technologies: ["Flutter", "Dart", "Bluetooth LE", "Provider", "Flutter DevTools"],
-    image: "src/img/newname4.png"
+    image: "/img/newname4.png"
   },
   {
     title: "DevOps Portfolio Monitor",
     description: "Created a personal dashboard to track GitHub repo status, build health, and commits. Used GitHub API for real-time data, Docker for containerization, and GitHub Actions to monitor repo changes and trigger alerts.",
     technologies: ["Node.js", "MongoDB", "GitHub API", "Docker", "GitHub Actions"],
-    image: "src/img/newname5.png"
+    image: "/img/newname5.png"
   },
   {
     title: "Campus ChatGPT Assistant",
     description: "Developed a GPT-powered chatbot to answer college FAQs. Built using FastAPI and OpenAI API on the backend, and React on the frontend with chat history, Firebase integration, and real-time response streaming.",
     technologies: ["FastAPI", "OpenAI API", "React", "Firebase", "Python"],
-    image: "src/img/newname6.png"
+    image: "/img/newname6.png"
   }
 
 
